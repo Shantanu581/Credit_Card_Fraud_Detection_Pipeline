@@ -35,13 +35,13 @@ transaction is fraudulent or not.
 
 ---
 
-## 📊 Model Comparison
+## Model Comparison
 
 | Model | Accuracy | Fraud Recall | Fraud Precision | F1 Score |
 |---|---|---|---|---|
 | Logistic Regression | 94.70% | 92.53% | 2.21% | 4.31% |
 | Decision Tree | 99.46% | 98.54% | 19.18% | 32.11% |
-| **Random Forest** ✅ | **99.97%** | **76.79%** | **97.08%** | **85.75%** |
+| **Random Forest** | **99.97%** | **76.79%** | **97.08%** | **85.75%** |
 
 Random Forest selected as final model — highest accuracy and precision.
 ---
