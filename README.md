@@ -60,7 +60,7 @@ Random Forest selected as final model — highest accuracy and precision.
 ## How to Run Locally
 
 1. Clone the repo
-git clone https://github.com/Mayankr-1508/fraud-detection-ml.git
+git clone https://github.com/Shantanu581/Credit_Card_Fraud_Detection_Pipeline.git
 
 2. Install libraries
 pip install pandas numpy matplotlib seaborn scikit-learn streamlit joblib
@@ -75,21 +75,9 @@ streamlit run fraud_detection.py
 
 ---
 
-## Project Structure
-
-fraud-detection-ml/
-├── anaysis_model.ipynb        → Data analysis + model training
-├── fraud_detection.py         → Streamlit web app
-├── fraud_detection_pipeline.pkl  → Saved trained model
-└── README.md
-
----
-
 ## App Preview
 
 Enter transaction details like type, amount and balances.
 Click Predict to instantly see if the transaction is fraud or not.
 
 ---
-
-Built by Mayank Raj
